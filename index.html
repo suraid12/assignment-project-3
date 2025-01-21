@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="output/main.css">
 </head>
-<body class="bg-[#FAFAFA] dark:bg-gray-900">
+<body class="bg-white dark:bg-gray-900">
 <!--This is header section-->
 <header class="px-[10px] py-[20px]">
     <nav class="flex flex-row justify-between items-center  ">
@@ -23,7 +23,7 @@
             </ul>
         </div>
         <div class="flex flex-row gap-2 md:gap-8">
-            <button class="bg-[#F44335] text-[#ffff] text-[8px] md:text-[20px] rounded-md md:p-1 p-[2px] w-25 md:w-40 ">Resister Interest</button> 
+            <button class="bg-[#F44335] text-[#ffff] text-[8px] md:text-[20px] rounded-md md:p-1 p-[2px] w-25 md:w-40   hover:bg-green-500 transition-all">Resister Interest</button> 
           <button id="switch">
             
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 dark:fill-white">
@@ -36,6 +36,7 @@
         </div>
     </nav>
 </header>
+
 <!--This is banner section-->
 <section class="grid grid-cols-12 grid-flow-row justify-items-center gap-50 ml-10 ">
     <!--This is section one-->
@@ -65,11 +66,12 @@
         </div>
     </div>
     <div class=" space-x-12">
-        <button class="bg-[#F44335] text-white font-semibold px-4 py-1 rounded-md">Sign up</button>
-        <button class="bg-white text-black rounded-md px-4 py-1 font-semibold">Learn more</button>
+        <button class="bg-[#F44335] text-white font-semibold px-4 py-1 rounded-md hover:bg-green-500 transition-all">Sign up</button>
+        <button class="bg-white text-black rounded-md px-4 py-1 font-semibold hover:bg-green-500 transition-all">Learn more</button>
 
     </div>
     </section>
+    
     <!--This is image section-->
     <section class="col-span-12 md:col-span-6">
         <div>
@@ -91,264 +93,226 @@
         <img src="Image/logo1.png" alt="logo">
     </div>
 </section>
+
 <!--This is content section-->
-  <section class="bg-gray-100 p-5">
-     <!-- Container for Small and Large Device Layouts -->
-  <div class="flex flex-col lg:flex-row lg:justify-center gap-8">
+<section class="bg-gray-100 p-5">
+    <!-- Container for Small and Large Device Layouts -->
+ <div class="flex flex-col lg:flex-row lg:justify-center gap-8">
 
-    <!-- Left Section: What You Will Learn -->
-    <div class="bg-white p-6 rounded-md shadow-sm w-full lg:w-1/2 mb-8 lg:mb-0">
-      <h2 class="text-2xl font-semibold mb-4 border-b-[2px] border-solid border-gray-500">What you will learn</h2>
-      <ul class="space-y-4">
-        <li class="flex items-start">
-          <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
-          <p>Gain skills required to succeed in an entry-level IT job</p>
-        </li>
-        <li class="flex items-start">
-          <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
-          <p>Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
-        </li>
-        <li class="flex items-start">
-          <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
-          <p>Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
-        </li>
-        <li class="flex items-start">
-          <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
-          <p>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
-        </li>
-      </ul>
+   <!-- Left Section: What You Will Learn -->
+   <div class="bg-white p-6 rounded-md shadow-sm w-full lg:w-1/2 mb-8 lg:mb-0">
+     <h2 class="text-2xl font-semibold mb-4 border-b-[2px] border-solid border-gray-500">What you will learn</h2>
+     <ul class="space-y-4">
+       <li class="flex items-start">
+         <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
+         <p>Gain skills required to succeed in an entry-level IT job</p>
+       </li>
+       <li class="flex items-start">
+         <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
+         <p>Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+       </li>
+       <li class="flex items-start">
+         <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
+         <p>Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+       </li>
+       <li class="flex items-start">
+         <span class="text-red-500 mr-3 p-1 bg-[#F9CCC7] rounded-full">✔️</span>
+         <p>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+       </li>
+     </ul>
+   </div>
+ <!-- Right Section: Skills You Will Gain -->
+ <div class="bg-white p-6 rounded-md shadow-sm w-full lg:w-1/2">
+    <img src="Image/itpicture.png" alt="Skills Illustration" class="mb-4 w-full h-32 object-contain">
+    <h2 class="text-xl font-semibold mb-4">Skills you will gain</h2>
+    <div class="flex flex-wrap gap-2">
+      <!-- Skill Tags -->
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transition-all">Debugging</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transition-all">Customer Service</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Customer Support</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Domain Name System (DNS)</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Network Model</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Linux</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Encryption Algorithms and Techniques</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Network Protocols</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">IPv4</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Troubleshooting</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Binary Code</span>
+      <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full hover:bg-green-500 cursor-pointer transitreen-500 transition-all">Cloud Computing</span>
     </div>
-
-    <!-- Right Section: Skills You Will Gain -->
-    <div class="bg-white p-6 rounded-md shadow-sm w-full lg:w-1/2">
-      <img src="Image/itpicture.png" alt="Skills Illustration" class="mb-4 w-full h-32 object-contain">
-      <h2 class="text-xl font-semibold mb-4">Skills you will gain</h2>
-      <div class="flex flex-wrap gap-2">
-        <!-- Skill Tags -->
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Debugging</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Customer Service</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Customer Support</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Domain Name System (DNS)</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Network Model</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Linux</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Encryption Algorithms and Techniques</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Network Protocols</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">IPv4</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Troubleshooting</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Binary Code</span>
-        <span class="border border-red-500 text-black text-sm px-3 py-1 rounded-full">Cloud Computing</span>
-      </div>
-    </div>
-
   </div>
-  </section>
-  <section class="bg-gray-100 p-4">
-     <!-- Container -->
-  <div class=" flex flex-col md:flex-row items-center md:items-start gap-6">
-    <!-- Left Section -->
-    <div class="bg-white shadow-md p-6 w-full md:w-1/2 rounded-lg">
-      <h2 class="text-lg font-bold mb-4">Jobs Associated with Certificate</h2>
-      <ul class="space-y-2 text-xl font-semibold">
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2"> → </span> Database administrator
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> Tech support specialist
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> IT specialist
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> Systems analyst
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> Network engineer
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> Help desk technician
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> IT support specialist
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2 "> → </span> IT technician
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2"> → </span> Computer user specialist
-        </li>
-        <li class="flex items-center">
-          <span class="text-blue-500 mr-2"> → </span> IT assistant
-        </li>
-      </ul>
-    </div>
 
+</div>
+
+     <!-- Container -->
+     <div class=" flex flex-col md:flex-row items-center md:items-start gap-6">
+        <!-- Left Section -->
+        <div class="bg-white shadow-md p-6 w-full md:w-1/2 rounded-lg">
+          <h2 class="text-lg font-bold mb-4">Jobs Associated with Certificate</h2>
+          <ul class="space-y-2 text-xl font-semibold">
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2"> → </span> Database administrator
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> Tech support specialist
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> IT specialist
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> Systems analyst
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> Network engineer
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> Help desk technician
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> IT support specialist
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2 "> → </span> IT technician
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2"> → </span> Computer user specialist
+            </li>
+            <li class="flex items-center">
+              <span class="text-blue-500 mr-2"> → </span> IT assistant
+            </li>
+          </ul>
+        </div>
+        
     <!-- Right Section -->
     <div class="bg-white shadow-md p-6 w-full md:w-1/2 rounded-lg">
-      <img src="Image/itsupport.png" alt="Certificate Illustration" class="w-full h-auto">
-    </div>
-  </div>
-  </section>
-  <section class="bg-gray-100 p-6">
-    <!-- Container -->
-  <div class="bg-white shadow-md rounded-lg p-6 max-w-4xl mx-auto">
-    <!-- Header -->
-    <div class="flex flex-col md:flex-row items-center justify-between">
-      <h1 class="text-lg md:text-xl font-bold text-gray-800 mb-4 md:mb-0">
-        There are 5 Courses in this Professional Certificate
-      </h1>
-      <div class="w-20 h-20">
-        <img src="Image/logo3.png" alt="Certificate Icon" class="w-full h-full object-contain">
+        <img src="Image/itsupport.png" alt="Certificate Illustration" class="w-full h-auto">
       </div>
     </div>
-
-    <!-- Course Buttons -->
-    <div class="flex flex-wrap justify-center gap-4 mt-6">
-      <button class="px-6 py-2 rounded-full bg-green-500 text-white font-medium shadow-md hover:bg-green-600">
-        COURSE 1
-      </button>
-      <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-gray-200">
-        COURSE 2
-      </button>
-      <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-gray-200">
-        COURSE 3
-      </button>
-      <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-gray-200">
-        COURSE 4
-      </button>
-      <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-gray-200">
-        COURSE 5
-      </button>
-    </div>
-  </div>
-  </section>
-  <section class="bg-gray-100 p-6">
-     <!-- Main Container -->
-  <div class="relative max-w-7xl mx-auto">
-    <!-- Box Image -->
-    <div class="relative">
-      <img src="Image/card1.png" alt="Box Layout" class="w-full h-auto shadow-md rounded-lg">
-      
-    
-    </div>
-
-    <!-- Curved Line Image -->
-    <div class="absolute -bottom-10 left-0 w-full flex justify-center">
-      <img src="Image/connector.png" alt="Curved Line" class="w-2/3 md:w-1/2 z-10 object-contain">
-    </div>
-  </div>
-  </section><div class="relative max-w-7xl mx-auto">
-    <!-- Box Image -->
-    <div class="relative">
-      <img src="Image/card2.png" alt="Box Layout" class="w-full h-auto shadow-md rounded-lg">
-      
-    </div>
-
-    <!-- Curved Line Image -->
-    <div class="absolute -bottom-10 left-0 w-full flex justify-center">
-      <img src="Image/connector.png" alt="Curved Line" class="w-2/3 md:w-1/2 z-10 object-contain">
-    </div>
-  </div>
-  </section><div class="relative max-w-7xl mx-auto">
-    <!-- Box Image -->
-    <div class="relative">
-      <img src="Image/card3.png" alt="Box Layout" class="w-full h-auto shadow-md rounded-lg">
-      
-    </div>
-
-    <!-- Curved Line Image -->
-    <div class="absolute -bottom-10 left-0 w-full flex justify-center">
-      <img src="Image/connector.png" alt="Curved Line" class="w-2/3 md:w-1/2 z-10 object-contain">
-    </div>
-  </div>
-  </section>
-  <div class="relative max-w-7xl mx-auto">
-    <!-- Box Image -->
-    <div class="relative">
-      <img src="Image/card4.png" alt="Box Layout" class="w-full h-auto shadow-md rounded-lg">
-      
-    </div>
-
-    <!-- Curved Line Image -->
-    <div class="absolute -bottom-10 left-0 w-full flex justify-center">
-      <img src="Image/connector.png" alt="Curved Line" class="w-2/3 md:w-1/2 z-10 object-contain">
-    </div>
-  </div>
-  </section>
-  <div class="relative max-w-7xl mx-auto">
-    <!-- Box Image -->
-    <div class="relative">
-      <img src="Image/card5.png" alt="Box Layout" class="w-full h-auto shadow-md rounded-lg">
-      
-    </div>
-
-  </div>
-  </section>
-  <section class="bg-gray-100 text-gray-800">
-     <!-- Testimonial Section -->
-  <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('Image/backgroundimage.png');">
-    <div class="bg-black bg-opacity-50">
-      <div class="max-w-7xl mx-auto py-12 px-6 md:py-20">
-        <div class="bg-white p-6 rounded-lg shadow-lg max-w-xl mx-auto">
-          <p class="text-pink-600 text-3xl font-bold mb-4">“</p>
-          <p class="text-gray-800 text-lg font-medium mb-4">
-            I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do.
-          </p>
-          <p class="text-gray-600 text-sm font-medium">
-            Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate
-          </p>
+    </section>
+    <section class="bg-gray-100 p-6">
+      <!-- Container -->
+    <div class="bg-white shadow-md rounded-lg p-6 max-w-4xl mx-auto">
+      <!-- Header -->
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <h1 class="text-lg md:text-xl font-bold text-gray-800 mb-4 md:mb-0">
+          There are 5 Courses in this Professional Certificate
+        </h1>
+        <div class="w-40 hover:text-green-500 h-40">
+          <img src="Image/logo3.png" alt="Certificate Icon" class="w-full h-full object-contain">
         </div>
       </div>
+    <!-- Course Buttons -->
+    <div class="flex flex-wrap justify-center gap-4 mt-6">
+        <button class="px-6 py-2 rounded-full bg-green-500 text-white font-medium shadow-md hover:bg-green-600">
+          COURSE 1
+        </button>
+        <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-green-500 transition-all">
+          COURSE 2
+        </button>
+        <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-green-500 transition-all">
+          COURSE 3
+        </button>
+        <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-green-500 transition-all">
+          COURSE 4
+        </button>
+        <button class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-green-500 transition-all">
+          COURSE 5
+        </button>
+      </div>
     </div>
-  </div>
+  </section>
+    <div class="h-auto w-full">
+      
+        <img src="Image/card1.png" alt="card-1" class=" h-[70vw] w-full">
+        <img src="Image/connector.png" alt="connector" class="w-full h-[20vw]"> 
+    </div>
+    <div class="h-auto w-auto">
+      
+      <img src="Image/card2.png" alt="card-2" class="h-[70vw] w-full">
+      <img src="Image/connector 2.png" alt="connector-2" class="w-full h-[20vw]"> 
+  </div> <div class="h-auto w-auto">
+      
+    <img src="Image/card2.png" alt="card-2" class="h-[70vw] w-full">
+    <img src="Image/connector 2.png" alt="connector-2" class="w-full h-[20vw]"> 
+</div>
+<div class="h-auto w-auto">
+      
+  <img src="Image/card4.png" alt="card-2" class="h-[70vw] w-full">
+  <img src="Image/connector.png" alt="connector" class="w-full h-[20vw]"> 
+</div>
+<div class="h-auto w-auto">
+      
+  <img src="Image/card5.png" alt="card-2" class="h-[70vw] w-full">
+  
+</div>
 
-  <!-- Footer Section -->
-  <footer class="bg-white border-t border-gray-200">
-    <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
-      <!-- Logo and Address -->
-      <div>
-        <img src="Image/logo1.png" alt="Logo" class="w-16 h-auto mb-4">
-        <p class="text-gray-600">
-          Level39<br>
-          One Canada Square,<br>
-          Canary Wharf,<br>
-          London,<br>
-          E14 5AB
+</section>
+<section class="bg-gray-100 text-gray-800">
+   <!-- Testimonial Section -->
+<div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('Image/backgroundimage.png');">
+  <div class="bg-black bg-opacity-50">
+    <div class="max-w-7xl mx-auto py-12 px-6 md:py-20">
+      <div class="bg-white p-6 rounded-lg shadow-lg max-w-xl mx-auto">
+        <p class="text-pink-600 text-3xl font-bold mb-4">“</p>
+        <p class="text-gray-800 text-lg font-semibold mb-4">
+          I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do.
+        </p>
+        <p class="text-red-600 text-sm font-medium">
+          Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate
         </p>
       </div>
-      <!-- Navigation Links -->
-      <div>
-        <h3 class="font-bold text-gray-800 mb-4">Home</h3>
-        <ul class="space-y-2 text-gray-600">
-          <li>Collaborations</li>
-          <li>Statistics</li>
-          <li>How It Works</li>
-          <li>Testimonials</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-bold text-gray-800 mb-4">About Us</h3>
-        <ul class="space-y-2 text-gray-600">
-          <li>Who We Are</li>
-          <li>Mission Statement</li>
-          <li>Our Vision</li>
-          <li>The Team</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-bold text-gray-800 mb-4">Upskill</h3>
-        <ul class="space-y-2 text-gray-600">
-          <li>IT Support</li>
-          <li>Project Management</li>
-          <li>Data Analysts</li>
-          <li>UX Design</li>
-        </ul>
-      </div>
     </div>
-    <div class="text-center py-4 bg-gray-50 text-gray-500 text-sm">
-      Copyright © 2022 Creatives For You LTD
+  </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="bg-white border-t border-gray-100">
+  <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <!-- Logo and Address -->
+    <div>
+      <img src="Image/logo1.png" alt="Logo" class="w-16 h-auto mb-4">
+      <p class="text-gray-600">
+        Level39<br>
+        One Canada Square,<br>
+        Canary Wharf,<br>
+        London,<br>
+        E14 5AB
+      </p>
     </div>
-  </footer>
-  </section>
+    <!-- Navigation Links -->
+    <div>
+      <h3 class="font-bold text-gray-800 mb-4">Home</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li class="hover:cursor-pointer hover:text-green-500">Collaborations</li>
+        <li class="hover:cursor-pointer hover:text-green-500">Statistics</li>
+        <li class="hover:cursor-pointer hover:text-green-500">How It Works</li>
+        <li class="hover:cursor-pointer hover:text-green-500">Testimonials</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold text-gray-800 mb-4">About Us</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li class="hover:cursor-pointer hover:text-green-500">Who We Are</li>
+        <li class="hover:cursor-pointer hover:text-green-500">Mission Statement</li>
+        <li class="hover:cursor-pointer hover:text-green-500">Our Vision</li>
+        <li class="hover:cursor-pointer hover:text-green-500">The Team</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold text-gray-800 mb-4">Upskill</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li class="hover:cursor-pointer hover:text-green-500">IT Support</li>
+        <li class="hover:cursor-pointer hover:text-green-500">Project Management</li>
+        <li class="hover:cursor-pointer hover:text-green-500">Data Analysts</li>
+        <li class="hover:cursor-pointer hover:text-green-500">UX Design</li>
+      </ul>
+    </div>
+  </div>
+  <div class="text-center py-4 bg-gray-50 text-gray-500 text-sm">
+    Copyright © 2022 Creatives For You LTD
+  </div>
+</footer>
+</section>
 <script>
     const htmlTag = document.getElementById("htmlTag");
     document.getElementById("switch").addEventListener("click",function(){
@@ -356,4 +320,3 @@
     }); 
 </script>
 </body>
-</html>
